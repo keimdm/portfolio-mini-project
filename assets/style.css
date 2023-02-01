@@ -37,7 +37,7 @@ header ul li {
     display: inline;
     text-align: right;
     margin-left: 30px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 header ul li a {
@@ -46,7 +46,6 @@ header ul li a {
 }
 
 main {
-    line-height: 50px;
     text-align: center;
 }
 
@@ -55,25 +54,42 @@ main img {
     height: auto;
 }
 
+.card {
+    background-color: goldenrod;
+    width: 700px;
+    margin: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding: 25px;
+    border-radius: 20px;
+}
+
 main h2 {
-    line-height: 75px;
+    line-height: 25px;
+    margin-bottom: 25px;
 }
 
 .paragraph {
     line-height: 25px;
+    width: 600px;
+    margin: auto;
+    font-size: 16px;
 }
 
 article ul li {
+    display: block;
     line-height: 25px;
-}
-
-form {
-    margin-bottom: 50px;
 }
 
 .form-input {
     display: block;
     line-height: 25px;
+}
+
+button {
+    width: 75px;
+    height: 35px;
+    margin-top: 18px;
 }
 
 footer {
