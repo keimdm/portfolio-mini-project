@@ -50,6 +50,11 @@ main {
     text-align: center;
 }
 
+main img {
+    width: 100%;
+    height: auto;
+}
+
 main h2 {
     line-height: 75px;
 }
