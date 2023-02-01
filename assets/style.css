@@ -6,11 +6,11 @@
 }
 
 body {
-    background-color: lemonchiffon;
+    background-color: #F3F8FD;
 }
 
 header {
-    background-color: darkgreen;
+    background-color: black;
     line-height: 50px;
     height: 100px;
     position: fixed;
@@ -42,7 +42,7 @@ header ul li {
 
 header ul li a {
     text-decoration: none;
-    color: white;
+    color: #F3F8FD;
 }
 
 main {
@@ -55,7 +55,7 @@ main img {
 }
 
 .card {
-    background-color: goldenrod;
+    background-color: #BCCEDF;
     width: 700px;
     margin: auto;
     margin-bottom: 25px;
@@ -93,8 +93,8 @@ button {
 }
 
 footer {
-    background-color: darkgreen;
-    color: white;
+    background-color: black;
+    color: #F3F8FD;
     text-align: center;
     line-height: 50px;
     height: 100px;
