@@ -13,6 +13,10 @@ header {
     background-color: darkgreen;
     line-height: 50px;
     height: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%
 }
 
 header h1 {
@@ -42,8 +46,29 @@ header ul li a {
 }
 
 main {
-    line-height: 75px;
+    line-height: 50px;
     text-align: center;
+}
+
+main h2 {
+    line-height: 75px;
+}
+
+.paragraph {
+    line-height: 25px;
+}
+
+article ul li {
+    line-height: 25px;
+}
+
+form {
+    margin-bottom: 75px;
+}
+
+.form-input {
+    display: block;
+    line-height: 25px;
 }
 
 footer {
