@@ -5,9 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style.css">
-    <title>Portfolio</title>
+    <title>David Keim</title>
 </head>
 <body>
-    <p>Hello World</p>
+    <header>
+        <h1>David Keim Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#contact-info">Contact Info</a></li>
+                <li><a href="#contact-form">Contact Form</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <figure>
+            <img src="./assets/portfolio-pic.png" alt="Picture of two people in front of the cliffs near Marseille, France.">
+            <h2 id="introduction">Introduction and Bio</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis assumenda omnis id, adipisci, quibusdam ex modi explicabo consequatur tempore iste error sunt iure fuga! Quibusdam, ad error et harum eum numquam corrupti nemo quas eligendi totam iure velit deleniti omnis maxime adipisci repellendus explicabo ducimus, in pariatur asperiores. Nostrum, facilis consectetur dolor aperiam laudantium, molestias nulla eum pariatur non obcaecati repudiandae facere aspernatur blanditiis quia! Aspernatur, mollitia corporis ab fuga, recusandae atque laboriosam ducimus modi et iure aperiam dignissimos architecto rerum at nemo quam enim perspiciatis voluptate odit soluta inventore, reiciendis laudantium! Molestias exercitationem nulla hic in aspernatur id pariatur!</p>
+        </figure>
+        <article id="contact-info">
+            <h2>Contact Info</h2>
+            <ul>
+                <li>Email: <a href="mailto:dmk252@cornell.edu">dmk252@cornell.edu</a></li>
+                <li>Github: <a href="https://github.com/keimdm">keimdm</a></li>
+            </ul>
+        </article>
+        <form id="contact-form">
+            <h2>Contact Form</h2>
+            <div class="form-input">
+                <label for="fname">First Name: </label>
+                <input type="text" id="fname">
+            </div>
+            <div class="form-input">
+                <label for="lname">Last Name: </label>
+                <input type="text" id="lname">
+            </div>
+            <div class="form-input">
+                <label for="email">Email Address: </label>
+                <input type="text" id="email">
+            </div>
+            <button>Send!</button>
+        </form>
+    </main>
+    <footer>
+        <h4>Made by David Keim, February 2023</h4>
+    </footer>
 </body>
 </html>
